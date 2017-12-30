@@ -1,6 +1,8 @@
+<html>
 <!-- Uses a header that scrolls with the text, rather than staying
   locked at the top -->
   <header class="mdl-layout__header mdl-layout__header--scroll">
+
   <div class="mdl-layout__header-row">
     <!-- Title -->
     <a class="mdl-navigation__link" href="index.html">
@@ -8,10 +10,11 @@
     </a>
     <!-- Add spacer, to align navigation to the right -->
     <div class="mdl-layout-spacer"></div>
-    <!-- Navigation -->
+    <!-- Random Card -->
     <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">Random Card</a>
+      <a id="randomCard" class="mdl-navigation__link" href="" onClick="pickCard()">Random Card</a>
     </nav>
+    <!-- Navigation -->
     <nav class="mdl-navigation">
       <a class="mdl-navigation__link" href="">About</a>
     </nav>
@@ -20,3 +23,4 @@
     </nav>
   </div>
   </header>
+</html>
