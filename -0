@@ -1,0 +1,26 @@
+<html>
+<head>
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <link rel="stylesheet" href="includes/icon.css">
+  <link rel="stylesheet" href="includes/material.deep_purple-purple.min.css" />
+  <script defer src="includes/material.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+<div class="mdl-layout mdl-js-layout">
+<div w3-include-html="header.html"></div>
+<main class="mdl-layout__content">
+  <div class="page-content">
+    CONTENT GOES HERE
+  </div>
+</main>
+</div>
+
+<script>
+w3.includeHTML();
+</script>
+
+</body>
+</html>

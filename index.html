@@ -1,35 +1,26 @@
 <html>
 <head>
-<link rel="stylesheet" href="includes/icon.css">
- <link rel="stylesheet" href="includes/material.deep_purple-purple.min.css" />
-<script defer src="includes/material.min.js"></script>
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <link rel="stylesheet" href="includes/icon.css">
+  <link rel="stylesheet" href="includes/material.deep_purple-purple.min.css" />
+  <script defer src="includes/material.min.js"></script>
 
-<link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
 
-<!-- Uses a header that scrolls with the text, rather than staying
-  locked at the top -->
 <div class="mdl-layout mdl-js-layout">
-  <header class="mdl-layout__header mdl-layout__header--scroll">
-    <div class="mdl-layout__header-row">
-      <!-- Title -->
-      <span class="mdl-layout-title">Space Tarot</span>
-      <!-- Add spacer, to align navigation to the right -->
-      <div class="mdl-layout-spacer"></div>
-      <!-- Navigation -->
-      <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="">About</a>
-      </nav>
-    </div>
-  </header>
-  <main class="mdl-layout__content">
-    <div class="page-content">
+<div w3-include-html="header.html"></div>
+<main class="mdl-layout__content">
+  <div class="page-content">
+
 <p>About...</p>
 <h2 id="majors">Majors</h2>
 <div class="mdl-grid">
   <div id="m0" class="mdl-cell mdl-cell--4-col">
-    <img src="deck/0_milky_way_v4.png" class="tarot_card" alt="-0: Inspiration">
+    <a href="-0">
+      <img src="deck/0_milky_way_v4.png" class="tarot_card" alt="-0: Inspiration">
+    </a>
   </div>
   <div id="m0" class="mdl-cell mdl-cell--4-col">
     <img src="deck/0_earthrise_v4.png" class="tarot_card" alt="0: The Fool">
@@ -275,8 +266,14 @@
     <img src="deck/c10_apollo11_v4.png" class="tarot_card" alt="10 of Cups">
   </div>
 </div>
-    </div>
-  </main>
+
 </div>
+</main>
+</div>
+
+<script>
+w3.includeHTML();
+</script>
+
 </body>
 </html>
