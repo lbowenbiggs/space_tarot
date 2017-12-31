@@ -22,7 +22,17 @@
       </div>
 
       <div class="mdl-cell mdl-cell--8-col">
-        <p>Text...</p>
+        <h4>Image Sources</h4>
+        "Earthrise" By Crew of Apollo 8 (NASA) [<a href="https://www.nasa.gov/multimedia/guidelines/index.html">US Government Work</a>], <a href="https://www.nasa.gov/multimedia/imagegallery/image_feature_1249.html">via NASA.</a>
+        <h4>About</h4>
+        <p>
+          The iconic photograph of Earth rising over the Moon was taken by the crew of Apollo 8 in 1968.
+          The apperent smallness of our planet reflects the outside persepctive of the fool.
+          Command Module Pilot Jim Lovell said:
+          <blockquote cite="https://www.nasa.gov/multimedia/imagegallery/image_feature_1249.html">
+            The vast loneliness is awe-inspiring and it makes you realize just what you have back there on Earth.
+          </blockquote>
+        </p>
       </div>
     </div>
   </div>
