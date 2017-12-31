@@ -14,14 +14,25 @@
 <div w3-include-html="header.html"></div>
 <main class="mdl-layout__content">
   <div class="page-content">
-    <h1>-0: Inspiration</h1>
+    <h2>-0: Inspiration</h2>
+
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--4-col">
+        <img src="deck/0_milky_way_v4.png" class="tarot_card" alt="-0: Inspiration">
+      </div>
+
+      <div class="mdl-cell mdl-cell--8-col">
+        <p>Text...</p>
+      </div>
+    </div>
   </div>
+
+  <br/>
 </main>
 </div>
 
 <script>
 w3.includeHTML();
 </script>
-
 </body>
 </html>
