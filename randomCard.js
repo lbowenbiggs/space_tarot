@@ -1,5 +1,5 @@
 function pickCard() {
-  var i = Math.floor((Math.random() * 25));
+  var i = Math.floor((Math.random() * 28));
 
   var links = new Array()
   links[0] = "n0.html";
@@ -27,6 +27,9 @@ function pickCard() {
   links[22] = "21.html";
   links[23] = "inf.html";
   links[24] = "sts.html";
+  links[25] = "str.html";
+  links[26] = "std.html";
+  links[27] = "stc.html";
 
   var x = document.getElementById("randomCard");
   x.href = links[i];
