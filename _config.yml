@@ -1,2 +1,3 @@
 name: Outer Space Tarot
 markdown: kramdown
+baseurl: "/space_tarot" # the subpath of your site, e.g. /blog
