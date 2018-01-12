@@ -6,7 +6,7 @@ layout: default
 
     <div class="mdl-grid">
       <div class="mdl-cell mdl-cell--4-col">
-        <img src="/deck/{{ page.file-name }}" class="tarot_card" alt="{{ page.title }}">
+        <img src="{{ page.file-name | relative_url }}" class="tarot_card" alt="{{ page.title }}">
       </div>
 
       <div class="mdl-cell mdl-cell--8-col">
@@ -22,14 +22,14 @@ layout: default
       </div>
 
       <div class="mdl-cell mdl-cell--6-col">
-        <a href="/{{ page.previous-card }}">
+        <a href="/{{ page.previous-card | relative_url }}">
           <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
             Previous Card
           </button>
         </a>
       </div>
       <div class="mdl-cell mdl-cell--6-col">
-        <a href="/{{ page.next-card }}">
+        <a href="/{{ page.next-card | relative_url }}">
           <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored right-btn">
             Next Card
           </button>
