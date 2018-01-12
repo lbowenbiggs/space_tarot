@@ -18,8 +18,8 @@ title: Outer Space Tarot
 {% for post in site.posts %}
   {% if post.category contains 'major' %}
   <div id="{{ post.title }}" class="mdl-cell mdl-cell--3-col">
-    <a href="{{ post.url }}">
-      <img src="/deck/{{ post.file-name }}" class="tarot_card" alt="{{ post.title }}">
+    <a href="{{ baseurl }}/{{ post.url }}">
+      <img src="{{ baseurl }}/deck/{{ post.file-name }}" class="tarot_card" alt="{{ post.title }}">
     </a>
   </div>
   {% endif %}
