@@ -14,6 +14,7 @@ function pickCard() {
   links[9] = "8.html";
   links[10] = "9.html";
   links[11] = "10.html";
+  // The pages below don't have descriptions or keywords
   links[12] = "11.html";
   links[13] = "12.html";
   links[14] = "13.html";

@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+    <h2>{{ page.title }}</h2>
+
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--4-col">
+        <img src="/deck/{{ page.file-name }}" class="tarot_card" alt="{{ page.title }}">
+      </div>
+
+      <div class="mdl-cell mdl-cell--8-col">
+        {{ content }}
+
+        <h4>Keywords</h4>
+        <ul>
+          {% for keyword in page.keywords %}
+          <li>{{ keyword }}</li>
+          {% endfor %}
+        </ul>
+
+      </div>
+
+      <div class="mdl-cell mdl-cell--6-col">
+        <a href="/{{ page.previous-card }}">
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+            Previous Card
+          </button>
+        </a>
+      </div>
+      <div class="mdl-cell mdl-cell--6-col">
+        <a href="/{{ page.next-card }}">
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored right-btn">
+            Next Card
+          </button>
+        </a>
+      </div>
+    </div>
