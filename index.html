@@ -31,7 +31,7 @@ title: Outer Space Tarot
 {% for post in site.posts %}
   {% if post.category contains 'court' %}
   <div id="{{ post.title }}" class="mdl-cell mdl-cell--3-col">
-    <a href="{{ post.url | relative_rul }}">
+    <a href="{{ post.url | relative_url }}">
       <img src="{{ post.file-name | relative_url }}" class="tarot_card" alt="{{ post.title }}">
     </a>
   </div>
