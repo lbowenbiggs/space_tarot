@@ -86,6 +86,6 @@ function pickCard() {
   links[79] = "/10c/";
 
   var x = document.getElementById("randomCard");
-  x.href = links[i];
+  x.href = "/space_tarot" + links[i];
   console.log(x.href);
 }
